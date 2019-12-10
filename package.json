@@ -1,0 +1,26 @@
+{
+  "name": "backend-toko",
+  "version": "1.0.0",
+  "description": "server side toko buku",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "create-db": "node src/db/create-db.js"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb"
+  ],
+  "author": "Imam Hanafi <h.imam1998@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.8.0",
+    "multer": "^1.4.2",
+    "validator": "^12.1.0"
+  }
+}
