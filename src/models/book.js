@@ -24,7 +24,7 @@ const bookSchema = new mongoose.Schema(
 // })
 
 bookSchema.statics.findByCredentials = async (nama) => {
-  const book = await Book.findOne({ email })
+  const book = await Book.findOne({ nama })
   if (!book) {
     throw new Error('Buku tidak ditemukan')
   } else {
